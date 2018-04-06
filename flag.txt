@@ -1,0 +1,30 @@
+
+# (c) Bacon5 2018
+
+speed 100000000
+pen black, 3
+fd 300
+
+for [1..2]
+  rt 90
+  fd 235
+  rt 90
+  fd 200
+
+rt 90
+fill crimson
+pu()
+fd 100
+rt 90
+fd 30
+pen white, 3
+
+for [1..6]
+  fd 45
+  rt 90
+  fd 45
+  lt 90
+  fd 45
+  lt 90
+
+fill white
